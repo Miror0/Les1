@@ -3,16 +3,6 @@ import java.util.Scanner;
 
 public class GuessNumber {
 
-    Scanner scan = new Scanner(System.in);
-    private Player userPlayerOne;
-    private Player userPlayerTwo;
-
-    public GuessNumber(Player userPlayerOne, Player userPlayerTwo) {
-        this.userPlayerOne = userPlayerOne;
-        this.userPlayerTwo = userPlayerTwo;
-    }
-
-    public void startGame() {
 
         int randomNumber = (int) (Math.random() * 100 + 1);
         
